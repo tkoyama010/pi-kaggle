@@ -1,0 +1,11 @@
+{
+  "name": "pi-kaggle",
+  "version": "0.1.0",
+  "description": "Kaggle integration for pi - download datasets, submit predictions, track competitions",
+  "dependencies": {
+    "typebox": "^0.34.0"
+  },
+  "pi": {
+    "extensions": ["./src/index.ts"]
+  }
+}
